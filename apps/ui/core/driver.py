@@ -21,10 +21,8 @@ def initialize(browser='firefox'):
         options = FirefoxOptions()
         options.add_argument('--headless')
         options.set_preference('intl.accept_languages', 'en-US, en')
-        service = FirefoxService(GeckoDriverManager().install())
-        instance = webdriver.Firefox(service=service, options=options)
+        instance = webdriver.Firefox(options=options)
     instance.implicitly_wait(2)
-
 
 
 def quit_driver():
