@@ -5,3 +5,4 @@ venv/
 *.pyd
 .Python
 db.sqlite3
+.idea
