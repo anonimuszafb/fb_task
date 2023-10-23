@@ -9,7 +9,7 @@ from webdriver_manager.firefox import GeckoDriverManager
 instance = None
 
 
-def initialize(browser='firefox'):
+def initialize(browser='chrome'):
     global instance
     if browser.lower() == 'chrome':
         options = ChromeOptions()
