@@ -1,9 +1,11 @@
 # fishingbooker_task
 
 This Github repository contains tasks for automated tests (WEB and API) for FishingBooker QA task. 
-Tests can be run via AWS server with Jenkins or via IDE terminal with installed prerequisites.
+Tests are written 100% in Python.
+Tests can be run via AWS Ubuntu server with Jenkins (no-code) or via IDE terminal with installed prerequisites.
 Browser support for WEB test are Chrome or Firefox. 
 All tests are parameterized.
+Short 3-minute video showing test execution in Jenkins provided at the end of the README file.
 
 ## How to run tests 
 
@@ -56,3 +58,5 @@ All tests are parameterized.
      allure serve /tmp/fbapi1 => to open Allure report after the test is done   
     ```
     
+## Video link
+https://www.youtube.com/watch?v=R0rsUVOiq1c
