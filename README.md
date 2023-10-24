@@ -5,6 +5,7 @@
 - Tests can be run via AWS Ubuntu server with Jenkins (no-code) or via IDE terminal with installed prerequisites.
 - Tests are located under apps/ folder.
 - Browser support for WEB test are Chrome and Firefox, running in headless.
+- Web tests use POM (Page Object Model).
 - All tests are parameterized.
 - Short 3-minute video showing test execution in Jenkins provided at the end of the README file.
 
