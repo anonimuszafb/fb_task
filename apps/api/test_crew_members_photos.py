@@ -39,7 +39,7 @@ def photo_id(setup, cleanup_photos):
     with open('apps/api/images/image.jpeg', 'rb') as photo_file:
         files = {'photo': ('image.jpeg', photo_file, 'image/jpeg')}
         response = setup.request(path=path, method='POST', files=files, data=data)
-    if response['status_code'] == 200:  # Updated status code
+    if response['status_code'] == 200:
         content = json.loads(response['content'].decode('utf-8'))
         return content['data']['id']
     else:
