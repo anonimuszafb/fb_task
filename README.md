@@ -1,11 +1,11 @@
 # fishingbooker_task
 
-This Github repository contains tasks for automated tests (WEB and API) for FishingBooker QA task. 
-Tests are written 100% in Python.
-Tests can be run via AWS Ubuntu server with Jenkins (no-code) or via IDE terminal with installed prerequisites.
-Browser support for WEB test are Chrome or Firefox. 
-All tests are parameterized.
-Short 3-minute video showing test execution in Jenkins provided at the end of the README file.
+- This Github repository contains tasks for automated tests (WEB and API) for FishingBooker QA task. 
+- Tests are written 100% in Python.
+- Tests can be run via AWS Ubuntu server with Jenkins (no-code) or via IDE terminal with installed prerequisites.
+- Browser support for WEB test are Chrome or Firefox. 
+- All tests are parameterized.
+- Short 3-minute video showing test execution in Jenkins provided at the end of the README file.
 
 ## How to run tests 
 
