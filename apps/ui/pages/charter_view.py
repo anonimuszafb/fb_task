@@ -27,7 +27,7 @@ def open_datepicker():
 
 
 def select_last_available_day():
-    max_attempts = 12  # to prevent infinite loop, e.g., 12 months
+    max_attempts = 12
     attempts = 0
 
     while attempts < max_attempts:
@@ -39,7 +39,6 @@ def select_last_available_day():
         else:
             go_to_next_month()
             attempts += 1
-            explicit_wait(5)  # Ensure the calendar has time to update
 
 
 def select_last_date_of_month():
@@ -62,10 +61,8 @@ def select_last_date_of_month():
                         date.click()
                         return
 
-            explicit_wait(2)
-
         except StaleElementReferenceException:
-            explicit_wait(2)
+            explicit_wait(1)
 
 
 def check_date_availability():
