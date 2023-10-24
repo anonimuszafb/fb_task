@@ -13,7 +13,7 @@
 
 - Login to http://54.242.33.182:8080/
 - username: fishingbookers
-- password: mocMOC123
+- password: fishingbookers123
 - Choose API or WEB job
 - Choose the "Build with parameters" option
   - For WEB tests, we can use the following parameters: name (test name using allure mark, default is task), browser (chrome or firefox), URL (any FishingBooker URL)
