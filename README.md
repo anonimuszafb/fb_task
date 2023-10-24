@@ -1,12 +1,17 @@
 # fishingbooker_task
 
+This Github repository contains tasks for automated tests (WEB and API) for FishingBooker QA task. 
+Tests can be run via AWS server with Jenkins or via IDE terminal with installed prerequisites.
+Browser support for WEB test are Chrome or Firefox. 
+All tests are parameterized.
+
 ## How to run tests 
 
 ### Option 1 via AWS server with Jenkins (easiest)
 
 - Login to http://54.242.33.182:8080/
 - username: fishingbookers
-- password: 
+- password: mocMOC123
 - Choose API or WEB job
 - Choose the "Build with parameters" option
   - For WEB tests, we can use the following parameters: name (test name using allure mark, default is task), browser (chrome or firefox), URL (any FishingBooker URL)
@@ -50,6 +55,4 @@
     ```
      allure serve /tmp/fbapi1 => to open Allure report after the test is done   
     ```
-
-
-## Video
+    
