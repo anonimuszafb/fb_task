@@ -83,7 +83,6 @@ def check_date_availability():
     except:
         pass
 
-    print("Availability status could not be determined.")
     return False
 
 
